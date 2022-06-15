@@ -1,0 +1,86 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    background-color: rgb(46, 155, 135);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.winner {
+    color: green;
+}
+
+.loser {
+    color: red;
+}
+
+#scoreText {
+    display: flex;
+    gap: 5px;
+} 
+
+#playingToOptionsBox {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+#selector {
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+#buttonBox {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 11px 17px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.button:hover {
+    opacity: 0.6;
+    transition: ease-in-out 0.3s;
+}
+
+#plus1Player1 {
+    background-color: green;
+}
+
+#plus1Player2 {
+    background-color: blue;
+}
+
+#reset {
+    background-color: red;
+}
